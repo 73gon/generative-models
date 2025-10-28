@@ -1,0 +1,26 @@
+[project]
+name = "generative-models"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "73gon",email = "malikmardan03@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy (>=2.3.4,<3.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

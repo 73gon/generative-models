@@ -1,6 +1,6 @@
 import os, platform, subprocess, sys
 
-CUDA_URL = "https://download.pytorch.org/whl/cu124"
+CUDA_URL = "https://download.pytorch.org/whl/cu130"
 
 def has_nvidia_gpu():
     """Check if NVIDIA GPU is available using nvidia-smi"""

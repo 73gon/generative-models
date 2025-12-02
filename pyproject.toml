@@ -15,6 +15,9 @@ dependencies = [
     "torchaudio",
     "scikit-learn (>=1.7.2,<2.0.0)",
     "tqdm (>=4.67.1,<5.0.0)",
+    "ipywidgets (>=8.1.8,<9.0.0)",
+    "jupyterlab-widgets (>=3.0.16,<4.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
 ]
 
 [tool.poetry]
